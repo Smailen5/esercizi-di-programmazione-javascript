@@ -7,7 +7,7 @@
     sottrazione
     moltiplicazione
     divisione
-  Esegua il calcolo tra ogni elemento dei due array, salvando ciascun risultato in un terzo array di appoggio.
+  Esegua il calcolo tra ogni elemento dei due array, salvando ciascun ris in un terzo array di appoggio.
 
   Esempio:
     Input: a = [3, 7, 2, 5, 8, 1, 2, 5, 6, 4], b = [9, 3, 1, 4, 7, 6, 5, 10, 1, 5], operazione = "addizione"

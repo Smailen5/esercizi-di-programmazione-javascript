@@ -3,7 +3,7 @@
   Scrivi un programma che dato:
   - un array di 10 elementi di numeri casuali interi (compresi tra 1 e 90 senza ripetizioni),
   - un array di 10 numeri interi a tuo piacimento (compresi tra 1 e 90 senza ripetizioni)
-  Verifichi quanti numeri scelti da te sono presenti nell'array principale e restituisca un risultato del tipo:
+  Verifichi quanti numeri scelti da te sono presenti nell'array principale e restituisca un ris del tipo:
     2 numeri uguali => ambo
     3 numeri uguali => terna
     4 numeri uguali => quaterna

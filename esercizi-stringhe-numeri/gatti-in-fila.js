@@ -18,12 +18,23 @@
   http://www.imparareaprogrammare.it
 */
 
-const gatti = 44;
-const numeroFile  = 8;
-const gattiPerFila  = Math.ceil(gatti / numeroFile);
+function calcola() {
 
-console.log(gattiPerFila + ' gatti per fila')
+  const cats = parseInt(document.getElementById('catChoice').value); // seleziona quanti gatti vuoi
+  const rowCatsChoice = parseInt(document.getElementById('rowChoice').value);  // quanti gatti per fila vuoi
 
-const restoGatti = gatti % numeroFile; // quanti gatti mancano a completare la fila
+  const rowsCat = Math.ceil(cats / rowCatsChoice);
+  const missingCats = rowCatsChoice - cats % rowCatsChoice;
 
-console.log(restoGatti + ' gatti mancanti a completare la fila')
+  const ris = document.getElementById('ris');
+  ris.innerText = `${rowsCat} file di gatti`;
+
+  // se ci sono gatti mancanti
+  if (missingCats < rowCatsChoice) {
+    const resultMissingCats = document.getElementById('resultMissingCats');
+    resultMissingCats.innerText = `${missingCats} gatti mancanti`;
+  } else {
+    resultMissingCats.innerText = 'non ci sono gatti mancanti'
+  }
+
+}
