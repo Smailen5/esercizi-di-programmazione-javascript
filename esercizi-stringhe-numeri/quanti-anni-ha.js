@@ -11,3 +11,15 @@
 
   http://www.imparareaprogrammare.it
 */
+
+const annoCorrente = 2018;
+
+let annoDiNascita = 1991;
+
+let eta = annoCorrente - annoDiNascita;
+
+console.log('hai: ' + eta + ' anni');
+
+let centenario = 100 - eta;
+
+console.log('mancano: ' + centenario + ' anni a farne 100');
