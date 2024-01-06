@@ -13,7 +13,7 @@
   http://www.imparareaprogrammare.it
 */
 
-let input = 12560;
+const input = 12560;
 
 let ore = input / 3600; // 3600 secondi in un'ora
 let secondiRimasti = input % 3600; // resto dei secondi rimasti dal calcolo ore
@@ -33,5 +33,3 @@ minuti = Math.floor(minuti);
 
 // inserito in una sola stringa
 console.log(`${ore + " ore"} ${minuti + " minuti"} ${secondiFinali + " secondi"}`)
-
-

@@ -17,3 +17,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+const gatti = 44;
+const numeroFile  = 8;
+const gattiPerFila  = Math.ceil(gatti / numeroFile);
+
+console.log(gattiPerFila + ' gatti per fila')
+
+const restoGatti = gatti % numeroFile; // quanti gatti mancano a completare la fila
+
+console.log(restoGatti + ' gatti mancanti a completare la fila')
